@@ -14,8 +14,19 @@ myresult.zen(识典第三平面含CJK-I区).csv  ————  识典全库在  
 所使用的文本达 5.24 GB ，超 26亿漢字。
 
 
-须用的工具 python 3.12.5+ ; pip ; 
+须用的工具 python 3.12.5+ 
+
 须用的库 pandas sys io
+
+
+输入文件为  80.sh（必须是 utf-8 ）； 
+
+输出自动保存为 myresult.zen.csv
+
+
+日期：2025/06/23
+
+
 
 
 须用的代码：
@@ -61,7 +72,6 @@ with open('myresult.zen.csv','w', encoding='utf-8') as f:
 ```
 
 
-输入文件为  80.sh（必须是 utf-8 ）； 输出自动保存为 myresult.zen.csv
 
 
 
